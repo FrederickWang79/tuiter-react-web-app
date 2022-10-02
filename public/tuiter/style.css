@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    border-left: 1px solid #475154;
+    border-right: 1px solid #475154;
+    height: 100%;
+}
+
+.wd-round-border {
+    border-radius: 20px;
+    border: 1px solid #475154;
+}
+
+.wd-main {
+    padding-left: 16px;
+}
+
+.wd-padding-top-12 {
+    padding-top: 12px;
+}
+
+.wd-padding-right-12 {
+    padding-right: 12px;
+}
+
+.wd-padding-12 {
+    padding: 12px;
+}
+
+.wd-padding-bottom-12 {
+    padding-bottom: 12px;
+}
+
+.wd-border-bottom {
+    border-bottom: 1px solid #475154;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-width-onefourth {
+    display: inline-block;
+    width: 24%;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-icon {
+    height: 48px;
+    border-radius: 100%;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-red {
+    color: red;
+}
+
+.wd-grey {
+    color: #6E767D;
+}
+
+.wd-large-image {
+    border-radius: 20px 20px 0px 0px;
+    height: 264px;
+    width: 504px;
+}
+
+.wd-font-size-13 {
+    font-size: 13px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+
+.wd-width-506 {
+    display: inline-block;
+    max-width: 506px;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}

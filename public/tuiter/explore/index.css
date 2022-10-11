@@ -1,45 +1,214 @@
 body {
     background-color: black;
-    border-left: 1px solid #475154;
-    border-right: 1px solid #475154;
-    height: 100vh;
 }
 
-.wd-main {
-    padding-left: 16px;
+.wd-magnifier {
+    font-size: 20px;
+    color: #b3b3b3;
+    position: relative;
+    left: 30px;
+    top: 14px;
 }
 
-.wd-border-bottom {
-    border-bottom: 1px solid #475154;
+.wd-focus-tweet-frame-adjust-upper {
+    position: relative;
+    top: -60px;
 }
 
-.wd-relative-right {
-    position: absolute;
-    right: 16px;
-    top: 1
+.wd-wireframe {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    border-bottom-style: hidden;
+    border-top-style: hidden;
 }
 
-.wd-divider {
-    border-top: 1px solid #475154;
-    border-bottom: 1px solid #475154;
-    background-color: darkgray;
-    height: 10px;
+.wd-wireframe-nav {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #404040;
 }
 
-.wd-padding-16 {
-    padding: 16px;
+.wd-wireframe-without-top-bottom {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #262626;
+    border-bottom: hidden;
+    border-top: hidden;
 }
 
-.wd-input {
-    border-radius: 50px;
-    height: 30px;
-    background-color: darkgray;
+.wd-wireframe-without-bottom {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #262626;
+    border-bottom: hidden;
+}
+
+.wd-wireframe-adjust {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #262626;
+}
+
+.wd-navigation-words {
+    padding-left: 12px;
+    position: center;
+    color: #d9d9d9;
+}
+
+.wd-icon-twitter {
+    font-size: 1.5em;
+}
+
+.wd-nav-icon-normal {
+    position: center;
+    color: #d9d9d9;
+}
+
+.wd-nav-icon-more {
+    position: center;
+    margin-bottom: -5px;
+}
+
+.wd-remove-left-margin {
+    position: relative;
+    left: -13px;
+    bottom: 1px;
+}
+
+.wd-remove-left-margin-extra {
+    position: relative;
+    left: -25px;
+}
+
+.wd-fa-more-shrink {
+    font-size: 0.7em;
+}
+
+.wd-who-to-follow-authenticated {
+    padding-left: 4px;
+    color: #d9d9d9;
+}
+
+.wd-title-bold {
+    font-weight: bolder;
+}
+
+.wd-who-to-follow-user-name {
+    font-weight: bolder;
+    color: #e6e6e6;
+}
+
+.wd-bookmarks-avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-rounded-pic {
+    border-radius: 50%;
+}
+
+.wd-nav-tweet-img {
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+
+.wd-focus-img {
+    padding-top: 10px;
+}
+
+.wd-tweet-img-subtitle {
+    font-family: "Arial";
+    color: lightgrey;
+    position: relative;
+    bottom: 80px;
+    left: 12px;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.wd-tweet-img-title {
     color: white;
-    width: 80%;
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.a {
+    text-decoration: None;
+}
+
+.wd-search-cog {
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+    size: 0.5em;
+}
+
+.fa-cog {
+    font-size: 18px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 18px;
+}
+
+.wd-search {
+    padding-bottom: 8px;
+}
+
+.wd-search-input {
+    padding-left: 35px;
+    border-style: hidden;
+    background-color: #333333;
+    margin-top: 10px;
+}
+
+.wd-search-cog {
+    padding-left: 16px;
+    position: relative;
+    top: 5px;
+    font-size: 1.6em;
+    size: 25px;
+    color: #b3b3b3;
+}
+
+.wd-who-to-follow-user-avatar {
+    padding-right: 12px;
 }
 
 .wd-float-left {
     float: left;
+}
+
+.wd-float-right {
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-who-to-follow-padding {
+    padding-top: 10px;
+}
+
+.wd-who-to-follow-padding-bottom {
+    margin-bottom: -5px;
+}
+
+.wd-who-to-follow-button {
+    border-radius: 20px;
+    background-color: ghostwhite;
+    border-style: hidden;
 }
 
 .wd-float-right {
@@ -50,34 +219,154 @@ body {
     clear: both;
 }
 
-.wd-image {
-    height: 36px;
-}
-
-.wd-highlight {
-    font-size: 15px;
-    color: #29A1F2;
-    border-bottom: 4px solid #29A1F2;
-}
-
-.wd-clickable {
-    font-size: 15px;
-    color: #6E767D;
-}
-
-.wd-title {
-    color: white;
-    font-size: 13px;
+.wd-who-to-follow-button-word {
+    color: black;
     font-weight: bold;
 }
 
-.wd-context {
-    font-size: 13px;
-    color: #6E767D;
+.wd-tweet-button {
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    width: 95%
 }
 
-.wd-large-image {
-    border-radius: 30px;
-    height: 100px;
-    width: 100px;
+.wd-tweet-button-link {
+    color: white;
+    font-weight: bold;
+}
+
+.wd-tweet-button-img {
+    width: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.wd-nav-tabs {
+    width: 90%;
+}
+
+a {
+    text-decoration: None;
+}
+
+.wd-tweet-preview-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    position: relative;
+    top: -5px;
+    right: -15px
+}
+
+.wd-tweet-preview-content {
+    padding-top: 3px;
+}
+
+.wd-tweet-in-topic-content-preview {
+    font-size: 16px;
+    color: #e6e6e6;
+    font-weight: bold;
+    width: 85%;
+    font-family: arial;
+}
+
+.wd-tweet-in-topic-number {
+    font-size: 14px;
+    color: dimgrey;
+    font-family: arial;
+}
+
+.wd-tweet-in-topic-number-adjust-upper {
+    margin-top: -18px;
+}
+
+.wd-tweet-in-topic-number-adjust-lower {
+    margin-bottom: -1px;
+}
+
+.wd-tweet-in-topic-subtitle {
+    font-size: 14px;
+    color: dimgrey;
+    padding-top: -10px;
+    font-family: arial;
+    margin-bottom: -2px;
+}
+
+.wd-tweet-in-topic-time {
+    padding-left: 7px;
+    font-size: 14px;
+    color: dimgrey;
+    font-family: arial;
+}
+
+.list-group-item:not(.active) {
+    background-color: black;
+    border-style: hidden;
+}
+
+.wd-who-to-follow-id {
+    color: #999999;
+}
+
+.wd-who-to-follow-title {
+    color: #d9d9d9;
+}
+
+.wd-tweet-in-topic-tag-selected {
+    font-weight: bolder;
+    color: white;
+    border-bottom-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-tags {
+    padding-bottom: 6px;
+}
+
+.wd-tweet-in-topic-tag-word {
+    color: dimgrey;
+}
+
+.nav-tabs {
+    border-style: hidden;
+}
+
+.wd-terms {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgb(110, 118, 125);
+    font-size: 14px;
+}
+
+.wd-show-more {
+    font-weight: bolder;
+    color: rgb(29, 161, 242);
+}
+
+.wd-test {
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.wd-tag-style {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    font-weight: bolder;
+}
+
+.wd-tag-selected {
+    color: rgb(29, 161, 242);
+    border-bottom-style: solid;
+}
+
+.wd-divider {
+    padding-left: 16px;
+}
+
+.wd-tags {
+    padding-top: 12px;
+    padding-bottom: 15px;
 }

@@ -301,11 +301,6 @@ a {
     font-family: arial;
 }
 
-.list-group-item:not(.active) {
-    background-color: black;
-    border-style: hidden;
-}
-
 .wd-who-to-follow-id {
     color: #999999;
 }

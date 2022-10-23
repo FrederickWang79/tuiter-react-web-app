@@ -1,0 +1,24 @@
+.wd-avatar-image {
+    width: 48px;
+}
+
+.wd-border-radius-20px {
+    border-radius: 20px;
+}
+
+.wd-width-onefourth {
+    display: inline-block;
+    width: 24%;
+}
+
+.wd-grey {
+    color: grey;
+}
+
+.wd-red {
+    color: red;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}

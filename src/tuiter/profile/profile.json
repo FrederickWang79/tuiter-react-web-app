@@ -1,0 +1,16 @@
+
+    {
+      "name": "Tingzhao",
+      "handle": "tingzhao",
+      "tweetsNum": 234,
+      "profilePicture": "java.png",
+      "bannerPicture": "banner.jpeg",
+      "bio": "Northeastern student major in Master of Computer Science, future employee as a software engineer at Samsara",
+      "website": "https://github.com/FrederickWang79",
+      "location": "Bay Area",
+      "dateOfBirth": "1998-12-30",
+      "dateJoined": "12/2016",
+      "followingCount": 34,
+      "followersCount": 3453451,
+      "editSwitch" : false
+    }

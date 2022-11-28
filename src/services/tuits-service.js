@@ -1,4 +1,5 @@
 import axios from "axios";
+// const TUITS_API = "http://localhost:4000/api/tuits";
 const TUITS_API = "https://tuiter-node-server-app-tw.herokuapp.com/api/tuits";
 
 export const createTuit = async (tuit) => {
@@ -8,6 +9,7 @@ export const createTuit = async (tuit) => {
 
 export const findTuits = async () => {
   const response = await axios.get(TUITS_API);
+  console.log(response);
   const tuits = response.data;
   return tuits;
 };
